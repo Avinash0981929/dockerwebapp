@@ -2,7 +2,7 @@
 version: "3"
 services:
  devopsdb:
-   image: Avinash0981929/automation:db
+   image: avinash0981929/automation:db
    ports:
      - "3306:3306"
    deploy:
@@ -11,7 +11,7 @@ services:
      - mynetwork
 
  application:
-   image: Avinash0981929/automation:app
+   image: avinash0981929/automation:app
    ports:
      - "1111:8080"
    deploy:
